@@ -1,0 +1,578 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: red;
+    font-style: italic;
+
+}
+
+h1 span {
+    color: #0096FF;
+}
+
+.btnn {
+    background-color: #0096FF;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    border: #0096FF;
+}
+
+/* section one */
+
+.logo {
+    height: 150px;
+    padding: 0 1% 2% 2%;
+}
+
+.smo {
+    padding: 2% 1% 0 1%;
+}
+
+.icon {
+    padding: 2% 0 0 4%;
+}
+
+.one {
+    padding: 10px;
+    display: flex;
+}
+
+.title {
+    line-height: 0%;
+}
+
+/* navbar */
+.navv {
+    color: #fff;
+
+}
+
+.navbar-nav {
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+/* section third */
+#container-third {
+    background-color: #00003f;
+    color: #fff;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+.nolist {
+    list-style: none;
+
+}
+
+.knee {
+    width: 55%;
+}
+
+.listt {
+    display: flex;
+    gap: 15px;
+}
+
+.third {
+    display: flex;
+
+    gap: 10%;
+    justify-content: space-between;
+}
+
+.t1 {
+    padding: 3% 5% 3% 5%;
+    width: 50%;
+    line-height: 2.5;
+}
+
+/* <!-- section-five --> */
+
+
+.heading {
+    display: block;
+}
+
+.to {
+    display: flex;
+    gap: 8%;
+    justify-content: space-between;
+    padding: 5% 6% 0 6%;
+}
+
+/* sample */
+.caard {
+    padding: 5%;
+}
+
+.ta {
+    text-align: left;
+
+}
+
+.person {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#sample {
+    padding: 2% 4% 5% 6%;
+}
+
+.sample {
+    width: 70%;
+
+}
+
+/* section-six */
+
+.six {
+    display: block;
+}
+
+#section-six {
+    display: flex;
+    gap: 8%;
+    justify-content: space-around;
+    padding: 5% 6% 0 6%;
+}
+
+.owl1 {
+
+    float: left;
+}
+
+.form-group {
+    padding: 7% 7% 3% 7%;
+}
+
+.form-control {
+    margin-bottom: 5%;
+}
+
+/* section seven */
+.seven-head {
+    font-style: italic;
+    color: red;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    padding: 1%;
+}
+
+.seven {
+    text-align: center;
+    justify-content: center;
+    background-color: #CCCCFF;
+    padding: 5% 5% 5% 5%;
+
+}
+
+.toast-body {
+    line-height: 1;
+}
+
+.toastt {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+
+}
+
+.owl {
+    padding-top: 3%;
+}
+
+/* section eight */
+.card {
+    margin-left: 11%;
+    float: left;
+    width: 25rem;
+}
+
+.eight {
+    text-align: center;
+
+    justify-content: center;
+
+    padding: 5% 5% 5% 5%;
+}
+
+/* section-9 */
+
+#container-nine {
+    color: #fff;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    background-color: #0096FF;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-self: center;
+    padding-top: 20px;
+}
+
+.bttn {
+    background-color: #0437F2;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border: #0096FF;
+}
+
+/* section ten */
+
+#container-ten {
+    color: #fff;
+    background-color: #00003f;
+}
+
+.ten {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    padding: 3% 5% 3% 5%;
+    line-height: 2;
+}
+
+.nine-2 {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+    padding-bottom: 3%;
+}
+
+.icons {
+    padding-right: 7px;
+}
+
+/* footer */
+.footer {
+    background-color: #0096FF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding: 2% 0 2%;
+}
+
+@media (max-width: 1040px) {
+    .logo {
+        height: 150px;
+        padding: 0 1% 2% 2%;
+    }
+
+    .smo {
+        padding: 2% 1% 0 1%;
+    }
+
+    .icon {
+        padding: 2% 0 0 4%;
+    }
+
+    .one {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        line-height: 0%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .listt {
+        display: flex;
+
+        gap: 5px;
+    }
+
+    .third {
+
+        display: flex;
+
+
+        gap: 10%;
+        justify-content: center;
+    }
+
+    .listt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10%;
+        justify-content: space-between;
+    }
+
+    /* section one */
+
+    .logo {
+        height: 100px;
+        padding: 0 2px 2% 2px;
+    }
+
+    .smo {
+        padding: 1% 2px 0 2px;
+    }
+
+    .icon {
+        padding: 5px 0 0 2px;
+    }
+
+    .one {
+        padding: 5px;
+        display: flex;
+
+    }
+
+    /* navbar */
+
+    .navbar-nav {
+        margin-left: 5px;
+
+    }
+
+    /* section third */
+
+    .knee {
+        width: 15%;
+    }
+
+    .listt {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .third {
+        display: flex;
+
+        gap: 10%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .t1 {
+        padding: 3% 5% 3% 5%;
+        width: 50%;
+        line-height: 2.5;
+    }
+
+    .footer {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+}
+
+@media(max-width:900px) {
+    .logo {
+        height: 150px;
+        padding: 0 1% 2% 2%;
+    }
+
+    .smo {
+        padding: 2% 1% 0 1%;
+    }
+
+    .icon {
+        padding: 2% 0 0 4%;
+    }
+
+    .one {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .knee {
+        width: 10%;
+    }
+
+    .third {
+
+        display: flex;
+        flex-direction: row;
+
+
+        justify-content: center;
+    }
+}
+
+@media(max-width:700px) {
+    .listt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .knee {
+        width: 35%;
+    }
+
+    .third {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10%;
+        justify-content: space-between;
+    }
+
+    .to {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2% 6% 0 2%;
+    }
+
+    /* section 10 */
+    .ten {
+        display: flex;
+        gap: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3% 5% 3% 5%;
+        line-height: 2;
+        flex-wrap: wrap;
+    }
+
+    .nine-2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 2;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width:500px) {
+    .sample {
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    #sample {
+        justify-content: baseline;
+        width: 100%;
+        text-align: center;
+    }
+
+    .listt {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10%;
+        justify-content: space-between;
+    }
+
+    .loadimg {
+        width: 100%;
+    }
+
+    #section-six {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        padding: 5% 6% 0 6%;
+    }
+
+    /* five */
+
+
+    .to {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        padding: 5% 6% 0 6%;
+    }
+
+    .heading {
+        display: block;
+        align-self: center;
+    }
+
+    /* section ten */
+    .ten {
+        display: flex;
+        gap: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3% 5% 3% 5%;
+        line-height: 2;
+        flex-wrap: wrap;
+    }
+
+    .nine-2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 2;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* footer */
+    .footer {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+}
